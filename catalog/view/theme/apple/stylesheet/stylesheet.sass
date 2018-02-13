@@ -2,6 +2,135 @@
 @import "vars"
 @import "fonts"
 
-//Custom styles here
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	overflow-x: hidden
+	font-family: MyriadSetProText, sans-serif
+
+header
+	background-color: #333
+	padding: 7px 0
+	.dropdown
+		display: inline-block
+		a.dropdown-toggle
+			color: #999	
+			font-size: 14px
+			margin-top: 3px 0 0
+			padding: 8px 0 4px
+			display: block
+			&:hover, &:active, &:focus
+				color: #fff
+				text-decoration: none
+
+ul.col-md-3
+	margin: 0
+
+.dropdown-menu
+	border-radius: 0
+	border: none
+	margin-top: 8px
+	left: 0
+	>li
+		>a
+			padding: 5px 20px
+			&:focus, &:hover
+				background-color: $accent2
+				color: #fff
+
+.header-phone
+	display: inline-block
+	color: #fff
+	float: right
+	font-size: 18px
+	padding-top: 4px
+	padding-left: 10px
+	border-left: 1px solid #444
+	
+
+.logo
+	margin-top: 4px
+
+.form-control
+	&:focus
+		box-shadow: none
+
+#search
+	width: 100%
+	.form-control
+		padding: 5px 16px
+		height: 35px
+		border: none
+			radius: 0
+		background-color: #444
+		font:
+			style: italic	
+			size: 13px
+			color: #fff
+		transition: background-color .25s ease, box-shadow .25s ease
+		box-shadow: transparent 0 0 0 1px inset
+		&:focus, &:hover
+			background-color: #555
+			box-shadow: #777 0 0 0 1px inset
+
+	.input-group-btn
+		position: absolute
+		right: 26px
+		.btn
+			padding: 9px 10px
+			border: none
+				radius: 0
+			background-color: transparent
+			color: #999
+			font-size: 13px
+
+.navbar-collapse.in
+	overflow-y: unset
+
+.top-menu
+	border-bottom: #EDEDED 1px solid 
+	a
+		color: #333
+	.navbar
+		margin-bottom: 0
+		font-size: 14px
+		&-nav
+			>li
+				>a
+					padding-top: 14px
+					padding-bottom: 12px
+					&:hover, &:focus
+						text-decoration: underline
+						background: none
+
+#cart	
+	button
+		background-color: $accent3
+		color: #fff
+		border-radius: 0
+		padding-left: 10px
+		padding-top: 14px
+		padding-bottom: 15px
+		border: none
+		font-family: MyriadSetProThin, sans-serif
+		font-size: 16px
+		text-align: left
+
+
+.cart-wrapper
+	padding-left: 0
+
+.toggle-top-text	
+	display: inline-block
+	text-transform: uppercase
+	color: $accent
+	font-family: MyriadSetProSemiBold, sans-serif
+	padding: 16px 0
+
+.navbar-toggle
+	margin-right: 0	
+
 
 @import "media"
