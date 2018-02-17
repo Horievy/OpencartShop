@@ -4,7 +4,7 @@ class ControllerCommonFooter extends Controller {
 
 				$data['home'] = $this->url->link('common/home');
 
-				$data['name'] = $this->config->get('config_name');	
+				$data['name'] = $this->config->get('config_name');
 
 				if ($this->request->server['HTTPS']) {
 					$server = $this->config->get('config_ssl');
@@ -17,7 +17,13 @@ class ControllerCommonFooter extends Controller {
 				} else {
 					$data['logo'] = '';
 				}
+
 				$data['telephone'] = $this->config->get('config_telephone');
+
+
+				$data['email'] = $this->config->get('config_email');
+
+				$data['email'] = $this->config->get('config_email');
 			
 		$this->load->language('common/footer');
 

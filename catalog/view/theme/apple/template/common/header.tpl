@@ -24,6 +24,7 @@
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
+<link rel="stylesheet" href="catalog/view/javascript/jquery/magnific/magnific-popup.css">
 <link href="catalog/view/theme/apple/stylesheet/stylesheet.css" rel="stylesheet">
 <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
 <?php foreach ($links as $link) { ?>
@@ -33,6 +34,7 @@
 <script src="<?php echo $script; ?>" type="text/javascript"></script>
 
 <script src="catalog/view/theme/apple/libs/equalheights/equalheights.js"></script>
+<script src="catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js"></script>
 <script src="catalog/view/theme/apple/js/theme.js"></script>
 
 <?php } ?>
