@@ -268,3 +268,14 @@
 2018-02-17 13:11:28 - PHP Warning:  rmdir(D:/PROGRAMS/OpenServer/OSPanel/domains/opencart.loc/system/storage/modification/admin/view/template): Directory not empty in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\admin\controller\extension\modification.php on line 105
 2018-02-17 13:11:28 - PHP Warning:  rmdir(D:/PROGRAMS/OpenServer/OSPanel/domains/opencart.loc/system/storage/modification/admin/view): Directory not empty in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\admin\controller\extension\modification.php on line 105
 2018-02-17 13:11:28 - PHP Warning:  rmdir(D:/PROGRAMS/OpenServer/OSPanel/domains/opencart.loc/system/storage/modification/admin): Directory not empty in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\admin\controller\extension\modification.php on line 105
+2018-02-19 10:56:50 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
+2018-02-19 10:57:25 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
+2018-02-19 10:57:29 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
+2018-02-19 10:58:27 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
+2018-02-19 10:58:47 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
+2018-02-19 10:58:51 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
+2018-02-19 11:04:03 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
+2018-02-19 11:04:40 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
+2018-02-19 11:05:31 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
+2018-02-19 11:05:35 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
+2018-02-19 11:05:39 - PHP Notice:  Undefined variable: meta_title in D:\PROGRAMS\OpenServer\OSPanel\domains\opencart.loc\catalog\view\theme\apple\template\product\category.tpl on line 17
