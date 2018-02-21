@@ -39,9 +39,9 @@ gulp.task('watch', ['sass', 'browser-sync'], function() {
 // Выгрузка изменений на хостинг
 gulp.task('deploy', function() {
 	var conn = ftp.create({
-		host:      'hostname.com',
-		user:      'username',
-		password:  'userpassword',
+		host:      'alexandrua.temp.swtest.ru',
+		user:      'alexandrua',
+		password:  'kjkrf2004',
 		parallel:  10,
 		log: gutil.log
 	});
@@ -49,7 +49,7 @@ gulp.task('deploy', function() {
 	'catalog/view/theme/apple/**'
 	];
 	return gulp.src(globs, {buffer: false})
-	.pipe(conn.dest('/path/to/folder/on/server'));
+	.pipe(conn.dest('/public_html/catalog/view/theme/apple/'));
 });
 
 gulp.task('default', ['watch']);

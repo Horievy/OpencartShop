@@ -27,11 +27,8 @@
           <h1><?php echo $heading_title; ?></h1>
           <ul class="list-unstyled">
 
-            <li><?php echo $text_model; ?> <?php echo $model; ?></li>
-            <?php if ($reward) { ?>
-            <li><?php echo $text_reward; ?> <?php echo $reward; ?></li>
-            <?php } ?>
-            <li><?php echo $text_stock; ?> <?php echo $stock; ?></li>
+            <li><?php echo $text_model; ?> <strong><?php echo $model; ?></strong></li>
+            <li><?php echo $text_stock; ?> <strong><?php echo $stock; ?></strong></li>
           </ul>
           <?php if ($price) { ?>
           <ul class="list-unstyled price-wrap">
@@ -58,10 +55,13 @@
 
                 </div>
                 <div class="col-xs-4">
-                  
-                <label class="control-label" for="input-quantity"><?php echo $entry_qty; ?></label>
-                <input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control" />
-                <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+                 <div class="product-count">
+                   
+                  <label class="control-label" for="input-quantity"><?php echo $entry_qty; ?></label>
+                  <input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control" />
+                  <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+
+                 </div> 
                 </div>
               </div>
              
@@ -97,7 +97,7 @@
 
         <div class="<?php echo $class; ?>">
           <?php if ($thumb || $images) { ?>
-          <ul class="thumbnails">
+          <ul class="thumbnails product-page-image">
             <?php if ($thumb) { ?>
             <li><a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a></li>
             <?php } ?>
